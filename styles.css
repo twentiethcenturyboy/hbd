@@ -1,0 +1,374 @@
+/*APPLY TO ALL*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Consolas, Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+.header{
+  text-align: center;
+  font-size: 3rem;
+  color: #FFD2A0;
+  text-shadow: 3px 3px #5b4981;
+  font-family: Consolas;
+}
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: antiquewhite;
+}
+
+.colorchange{
+  font-family: Consolas;
+  margin: 50px 50px;
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 3px 3px rgb(36, 17, 54);
+
+  animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #FF8383;
+  }
+  25% {
+    color: #F26B0F;
+  }
+  50% {
+    color: #FFF574;
+  }
+  75% {
+    color: #31C6D4;
+  }
+  100% {
+    color: #9376E0;
+  }
+}
+
+
+
+
+
+/*INDEX PAGE*/
+.index{
+  background-image: url('images/mathmath.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.indexblock{
+  background-color: rgba(168, 136, 181, 0.432);
+  border-style: dotted;
+  padding: 0;
+  margin: 100px;
+}
+.indexblock .hello{
+  background-color: #3399ff98;
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+  width: 530px; 
+  margin: auto; 
+}
+.indexblock .math{
+  background-color: #3399ff98;
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+  width: 300px; 
+  margin: auto; 
+}
+.front{
+  font-family: Consolas;
+  color: white;
+  margin: 50px 50px;
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 3px 3px rgb(3, 3, 104);
+}
+.choices{
+  text-align: center;
+  padding: 10px 20px;
+  margin-bottom: 75px;
+}
+.click{
+  margin: auto;
+  padding: 20px 30px;
+  background-color: #8174A0;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  font-size: 2rem;
+  color: #FFD2A0;
+  font-style: bold;
+  font-family: Consolas;
+
+  transition: all 0.3s;
+}
+.click:hover{
+  background-color: #FFD2A0;
+  color:#5b4981;
+  font-size: 3rem;
+}
+
+
+
+
+
+/*HBD PAGE*/
+.hbd{
+  background: url('images/bg2.gif'); 
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.greeting{
+  text-align: center;
+  background-color: #8174a04f; 
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+  width: 900px; 
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 1000px;
+  border-style: dotted;
+  border-color: #5b4981b2;
+  object-fit: cover;
+
+  max-width: 100%;
+  height: auto; 
+}
+.greetingimg{
+  width: 100%;
+  height: auto; 
+}
+.stuff{
+  background-color: #8174a067;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+}
+.stuff-items{
+  list-style: none;
+  margin: auto;
+}
+.stuffbuttons{
+  padding: 20px;
+  font-size: 1rem;
+  margin: 20px;
+  background-color: #FFD2A0;
+  border-radius: 10px;
+
+  transition: color 1s;
+  transition: background-color 1s;
+  transition: background-color 1s;
+  transition: font-size 0.2s;
+}
+.stuffbuttons:hover{
+  background-color: #5b4981;
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+
+
+.mp3player{
+  text-align: center;
+}
+.hbdmp3{
+  background-color: #8174A0;
+  padding: 20px;
+  border-radius: 50px;
+  margin-bottom: 100px;
+}
+#katyperry{
+  font-size: 1.5rem;
+  color: antiquewhite;
+  text-shadow: 2px 2px #5b4981;
+}
+
+
+
+
+/*STORY PAGE*/
+.story{
+  background-color: antiquewhite;
+}
+
+
+
+/*Mikki Gallery*/
+.mikki{
+  background: url('images/gallerybg.jpeg'); 
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.wmusic{
+  display: flex;
+}
+.gallery{
+  background-color: rgba(127, 255, 212, 0.308);
+
+  box-sizing: border-box;
+  text-align: center;
+  margin: 50px;
+  padding: auto;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: rgba(21, 73, 56, 0.658);
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center; 
+}
+.galleryphoto{
+  width: 500px;
+  padding: 0px;
+  margin: 0px;
+
+  transition: width 1s;
+}
+.gallerybox{
+  border-style: groove;
+  border-color: #5b4981;
+  border-width: 9px;
+  margin: 40px;
+  background-color:#1f1a2d; 
+  border-radius: 10px;
+
+  justify-content: center;
+  align-items: center;
+}
+.subtitle{
+  font-size: 1.5rem;
+  color: #e3e3e9;
+  text-shadow: 3px 3px #5b4981;
+  margin: auto;
+}
+.gallerybox .galleryphoto:hover{
+  width: 600px;
+}
+
+
+/*Favorite Things about Mikki*/
+.mikkifav{
+  background: url('images/mikkifavbg.jpg'); 
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.mikkifavheader{
+  text-align: left;
+  font-size: 3.5rem;
+  color: #EFB6C8;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.301);
+  font-family: 'Courier New', Courier, monospace;
+  padding: 30px;
+
+
+  background-color: #efb6c848;
+  border-radius: 30px;
+}
+
+.thingsaboutyou{
+  padding: 20px;
+  color: white;
+  background-color:#1f1a2d75;
+  border-radius: 30px;
+}
+.thingsaboutyou li{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 25px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.borderfav{
+  margin-top: 80px;
+  border-style: dotted;
+  border-radius: 30px;
+  border-color: #EFB6C8;
+  border-width: 5px;
+}
+
+
+/*Message*/
+.birthdaymessage{
+  background-color: #fcf1e5; 
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.messagetext{
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-left: 100px;
+  padding: 50px;
+}
+.messagetext p{
+  color: #4b241f;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+}
+
+
+/*Story*/
+.read{
+  margin:60px;
+}
+.chapter{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #3d2f2c;
+}
+.lazerjunkies{
+  font-family: Baskerville, 'Times New Roman', Times, serif;
+  margin: auto;
+  font-size: 20px;
+  color: #3d2f2c;
+}
+.Lucie{
+  text-align: center;
+  margin: 30px;
+}
+.Lucie img{
+  margin: auto;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: #3d2f2c;
+}
+
+
+
+
+
+/*WRONG PAGE*/
+.wrong{
+  background-color: red;
+}
+.wronghead{
+  font-size: 10rem;
+}
+
+
